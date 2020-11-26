@@ -70,7 +70,7 @@ section{
 .bar-nav{
 	display: grid;
 	grid-template-columns: repeat(6, 130px);
-	margin: 0px 95px 0 300px;
+	margin: -35px 95px 0 300px;
 	list-style: none;
 	border: 1px solid red;
 }
@@ -168,16 +168,32 @@ main div#text-subtitle{
 }
 
 /*main*/
-.main-content{
+.about-content{
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	margin: 147px 0 0 138px;
+	grid-template-columns: repeat(2, auto);
+	margin:0px 80px 0 100px;
+	width: 1050px;
 	border:1px solid red;
 }
 
-.main-content2{
+.about-content2{
 	display: grid;
 	grid-template-columns: repeat(2, auto);
 	margin-top: 40px;
 }
 
+div#text-about1{
+	margin-left: 120px;
+	margin-top: 140px;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 49px;
+	color: #3E3F43;
+}
+
+.text-about2{
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 33px;
+	color: #000000
+}
