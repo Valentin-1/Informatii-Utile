@@ -276,9 +276,14 @@ div#text-about4{
 }
 
 		/*SECTION-CATEGORIES*/		
-.section-categories{
+.container-categories-1{
 	display: grid;
-	grid-template-columns: auto;
+	grid-template-columns: repeat(3, auto);
+}
+
+.container-categories-2{
+	display: grid;
+	grid-template-columns: repeat(2, auto);
 }
 
 /*Header*/
@@ -317,9 +322,10 @@ div#text-about4{
 
 	/*1*/		
 
-.container-categories{
+.container-categories-1{
 	display: inline-grid;
 	grid-template-columns: repeat(3, auto);
+	grid
 	border: 1px solid red;
 }
 
@@ -335,5 +341,124 @@ div#text-about4{
 }
 
 #img-1{
-	margin-top: 10px;
+	padding: 30px 0px;
 }
+
+#text-top{
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 33px;
+}
+
+#bt-categories{
+	width: 140px;
+	border: 1px solid black;
+	line-height: 30px;
+	padding: 12px 12px;
+	border-radius: 4px;
+	text-decoration: none;
+	color: black;
+	margin-left: 170px;
+}
+
+		/*2*/		
+.img-bg-2{
+	width: 280px;
+	height: 400px;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+	background: #F7DEA6;
+	border-bottom-left-radius: 100px;
+	border-top-right-radius: 100px;
+}
+
+#img-2{
+	padding: 25px 70px;
+}
+
+
+		/*3*/		
+.img-bg-3{
+	width: 280px;
+	height: 400px;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+	background: #A8DCEC;
+	border-bottom-left-radius: 100px;
+	border-top-right-radius: 100px;
+}
+
+#img-3{
+	padding: 43px 55px;
+}
+
+
+		/*3*/		
+.img-bg-4{
+	width: 280px;
+	height: 400px;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+	background: #F9BDBD;
+	border-bottom-left-radius: 100px;
+	border-top-right-radius: 100px;
+}
+
+#img-4{
+	padding: 25px 40px;
+}
+
+		/*5*/		
+.img-bg-5{
+	width: 280px;
+	height: 400px;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+	background: #F9BDBD;
+	border-bottom-left-radius: 100px;
+	border-top-right-radius: 100px;
+}
+
+#img-5{
+	padding: 70px 20px;
+}
+
+		/*SECTION-TESTIMONY*/		
+
+/*Header*/
+.header-testimony{
+	display: inline-grid;
+	grid-template-columns: repeat(4, auto);
+	border:1px solid red;
+}
+
+.testimony-logo{
+	margin: 35px 0 0 100px;
+}
+
+.testimony-title{
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 49px;
+	margin: 25px 14px 0 9px; 
+}
+
+.testimony-line{
+	border: 1px solid #000000;
+	width: 200px;
+	height: 0px;
+	margin-top: 50px;
+}
+
+.testimony-title2{
+	font-size: 72px;
+	line-height: 98px;
+	color: rgba(34, 34, 34, 0.1);
+	font-weight: 800;
+}
+
+		/*Main*/		
