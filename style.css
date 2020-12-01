@@ -27,7 +27,36 @@ section{
 	width: 1152px;
 	margin: 0 auto;
 	height: auto;
-	border: 2px solid green;
+	/*border: 2px solid green;*/
+}
+
+.section-about{
+	height: 950px;
+}
+
+.section-hot{
+	height: 500px;
+}
+
+.section-categories{
+	height: 1100px;
+}
+
+.section-testimony{
+	height: 550px;
+}
+
+footer{
+	width: 1152px;
+	margin: 0 auto;
+	height: 456px;
+	/*border: 2px solid green;*/
+}
+
+.bg-container{
+	background-image: url(Images/img-ft-left.png);
+	width: 644px;
+	height: 455px;
 }
 
 		/*ONE-PAGE*/		
@@ -42,7 +71,7 @@ section{
 
 #bg-flower{
 	width: 370px;
-	height: 800px;
+	height: 730px;
 	background-color: #F9BDBD;
 	position: absolute;
 	top: 0;
@@ -216,17 +245,16 @@ div#text-about4{
 
 
 		/*HOT IT WORKS*//		
-
+/*Header*/
 .section-hot{
 	display: grid;
-	grid-template-columns: auto;
+	grid-template-columns: auto
 }
 
-/*Header*/
-.header-hot{
-	display: inline-grid;
+.header-work{
+	display: grid;
 	grid-template-columns: repeat(4, auto);
-	/*border:1px solid red;*/
+	/*border: 1px solid red;*/
 }
 
 .hot-logo{
@@ -254,10 +282,39 @@ div#text-about4{
 	font-weight: 800;
 }
 
+
+
+		/*Main*/		
+
 .container-hot{
-	display:inline-grid;
-	grid-template-columns: repeat(4, 288px);
-	border: 1px solid red;
+	display: grid;
+	grid-template-columns: repeat(8, auto);
+	/*border: 1px solid red;*/
+}
+
+#number{
+	font-weight: 600;
+	font-size: 96px;
+	line-height: 131px;
+	padding-top: 30px;
+	padding-left: 110px;
+	color: rgba(249, 189, 189, 0.25);
+}
+
+.img-1{
+	padding: 25px 0;
+}
+
+.img-2{
+	padding: 25px 0;
+}
+
+.img-3{
+	padding: 25px 0;
+}
+
+.img-4{
+	padding: 25px 0;
 }
 
 .button-hot{
@@ -275,6 +332,10 @@ div#text-about4{
 	align-content: center;
 }
 
+
+
+
+
 		/*SECTION-CATEGORIES*/		
 .container-categories-1{
 	display: grid;
@@ -290,7 +351,7 @@ div#text-about4{
 .header-categories{
 	display: inline-grid;
 	grid-template-columns: repeat(4, auto);
-	border:1px solid red;
+	/*border:1px solid red;*/
 }
 
 .categories-logo{
@@ -324,9 +385,17 @@ div#text-about4{
 
 .container-categories-1{
 	display: inline-grid;
-	grid-template-columns: repeat(3, auto);
-	grid
-	border: 1px solid red;
+	grid-template-columns: repeat(3, 350px);
+	grid-grap: 10px;
+	padding-left: 80px;
+	/*border: 1px solid red;*/
+}
+
+.container-categories-2{
+	display: grid;
+	grid-template-columns: repeat(2, 350px);
+	grid-grap: 10px;
+	padding-left: 80px;
 }
 
 .img-bg-1{
@@ -395,7 +464,7 @@ div#text-about4{
 }
 
 
-		/*3*/		
+		/*4*/		
 .img-bg-4{
 	width: 280px;
 	height: 400px;
@@ -418,7 +487,7 @@ div#text-about4{
 	left: 0px;
 	top: 0px;
 	z-index: -1;
-	background: #F9BDBD;
+	background: #F7DEA6;
 	border-bottom-left-radius: 100px;
 	border-top-right-radius: 100px;
 }
@@ -429,11 +498,17 @@ div#text-about4{
 
 		/*SECTION-TESTIMONY*/		
 
+.container-testimony{
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	/*border: 1px solid red;*/
+}
+
 /*Header*/
 .header-testimony{
 	display: inline-grid;
 	grid-template-columns: repeat(4, auto);
-	border:1px solid red;
+	/*border:1px solid red;*/
 }
 
 .testimony-logo{
@@ -462,3 +537,212 @@ div#text-about4{
 }
 
 		/*Main*/		
+#img-testimony{
+	width: 240px;
+	height: 320px;
+	box-sizing: border-box;
+	border-radius: 25% 0 25%;
+}
+
+.container-commit{
+	width: 394px;
+	height: 280px;
+	border: 2px solid #A8DCEC;
+	box-sizing: content-box;
+	border-radius: 0 25% 0;
+}
+
+#stars{
+	padding: 40px 200px 10px 10px;
+}
+
+#text-commit{
+	padding: 0 10px 20px 10px;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 19px;
+	color: #3E3F43;
+}
+
+#img-user{
+	width: 40px;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 50% 50% 50% 50%;
+	margin: 10px;
+}
+
+#text-name{
+	margin: -50px 10px 0px 60px;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16px;
+	color: #AFAFAF;
+}
+
+#prev{
+	padding: 80px 30px 0 0;
+}
+
+#next{
+		padding: 80px 0 0 190px;
+}
+
+#bar{
+	padding: 30px 20px 20px 160px;
+}
+
+
+		/*FOOTER*/		
+/*Top*/
+
+.container-footer-top{
+	display: inline-grid;
+	grid-template-columns: repeat(2, auto);
+	/*border: 1px solid red;*/
+}
+
+.footer-top{
+	display: grid;
+	grid-template-columns: repeat(1, auto);
+}
+
+.text-ft-1{
+	margin-left: 70px;
+	margin-top: 50px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.text-ft-2{
+	margin-left: 70px;
+	font-size: 18px;
+	width: 510px;
+}
+
+.bt-container{
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	padding: 65px 0 20px 20px;
+}
+
+.bt-email{
+	background: #FFFFFF;
+	border: 1px solid #DAA520;
+	box-sizing: border-box;
+	border-radius: 4px;
+	width: 355px;
+	height: 40px;
+}
+
+.bt-footer{
+	background: #DAA520;
+	border-radius: 4px;
+	width: 120px;
+	height: 40px;
+}
+
+#text-in-box1{
+	margin-left: 20px;
+	margin-top: 8px;
+}
+
+#text-in-box2{
+	margin-left: 28px;
+	margin-top: 8px;
+}
+
+		/*FOOTER-BUTTOM*/		
+.container-footer-buttom{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	margin-top: 16px;
+
+}
+
+.line-footer{
+	width: 760px;
+	height: 0px;
+	border: 1px solid #C4C4C4;
+	margin: 100px 0 0 70px;
+}
+
+footer ul{
+	margin-left: 30px;
+	list-style: none;
+}
+
+.footer-ul-1 li a{
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	color: #8D8D8D;
+}
+
+#word-1{
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	color: #333333;
+}
+
+.footer-ul-2 li a{
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	color: #8D8D8D;
+}
+
+#word-2{
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	color: #333333;
+}
+
+.footer-ul-3 li a{
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	color: #8D8D8D;
+}
+
+#word-4{
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	color: #333333;
+}
+
+.footer-ul-4 li a{
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	color: #8D8D8D;
+}
+
+#word-5{
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	color: #333333;
+}
+
+.footer-ul-5 li a{
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	color: #8D8D8D;
+}
+
+#word-5{
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	color: #333333;
+}
